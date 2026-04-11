@@ -5,7 +5,7 @@ const BookCard = ({img, title, author, category, rating, id, tags = []}) => {
 
 
   return (
-    <Link to={`/books/${id}`} className="group w-full max-w-sm mx-auto">
+    <Link to={`/books/${id}`} className="group w-full max-w-sm mx-auto mt-7">
       <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100 overflow-hidden">
 
         {/* Book image */}

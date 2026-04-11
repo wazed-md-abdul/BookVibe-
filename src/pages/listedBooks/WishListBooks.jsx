@@ -1,6 +1,8 @@
 import React from 'react';
 
-const WishListBooks = ({book}) => {
+const WishListBooks = ({book,sortingType}) => {
+  console.log(sortingType);
+  
      const {image, title, author, category, rating,yearOfPublishing,publisher,tags,totalPages}= book;
     return (
         <div>
